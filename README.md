@@ -10,7 +10,10 @@ Note that the current code:
 
 This is because I mostly do not use the automatic "Important" label set by Google on my messages, and because I prefer to have my sent messages with the rest of the conversation and not in a dedicated folder. However, this is likely to be a personal taste and you may change this... by editing the source code (the method `net.trebuh.gimapTransfer.Copier#getFolderName`). Sorry, this is not yet configurable. Tell me if you need this feature, and I will see if I can do something.
 
-# Install
+# Download
+Download the [latest release](https://github.com/lrnthbrt/gmail-transfer/releases/latest).
+
+# Build From Source
 The recommanded usage is curently using Eclipse: open the project, then export the project as a runnable jar.
 I have exported a Ant build script (antBuild.xml), but I have not tested it.
 
