@@ -20,5 +20,7 @@ I have exported a Ant build script (antBuild.xml), but I have not tested it.
 # Usage
 See `java -jar gmail-transfer.jar --help`
 
+Note: To connect to your GMail account only using password authentication (over SSL: do not worry, connections are encrypted) and not OAuth (which is not yet supported), you need to activate "Less section applications" through https://www.google.com/settings/security/lesssecureapps.
+
 # Contributions
 Contributions are welcome, in the form of pull requests or bug reports.
